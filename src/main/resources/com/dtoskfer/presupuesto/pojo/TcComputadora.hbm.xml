@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Sep 9, 2016 9:10:24 AM by Hibernate Tools 5.1.0.Alpha1 -->
+<hibernate-mapping>
+    <class name="com.dtoskfer.presupuesto.pojo.TcComputadora" table="tc_computadora" optimistic-lock="version">
+        <id name="computadoraId" type="int">
+            <column name="computadora_id" />
+            <generator class="assigned" />
+        </id>
+        <property name="hostname" type="string">
+            <column name="hostname" length="100" not-null="true" />
+        </property>
+        <property name="direccionIp" type="string">
+            <column name="direccion_ip" length="30" />
+        </property>
+        <property name="fechaRegistro" type="timestamp">
+            <column name="fecha_registro" length="19" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

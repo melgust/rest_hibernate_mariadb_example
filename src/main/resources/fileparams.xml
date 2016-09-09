@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Parametros>
+	<Parametro id="0">
+        <Codigo>0</Codigo>
+        <Descripcion>Server</Descripcion>
+        <Valor>10.101.6.183</Valor>
+    </Parametro>
+	<Parametro id="1">
+        <Codigo>1</Codigo>
+        <Descripcion>User</Descripcion>
+        <Valor>username</Valor>
+    </Parametro>
+    <Parametro id="2">
+        <Codigo>2</Codigo>
+        <Descripcion>Password</Descripcion>
+        <Valor>password</Valor>
+    </Parametro>
+    <Parametro id="3">
+        <Codigo>3</Codigo>
+        <Descripcion>Eschema name</Descripcion>
+        <Valor>schemaname</Valor>
+    </Parametro>
+    <Parametro id="4">
+        <Codigo>4</Codigo>
+        <Descripcion>Direccion del servicio web active directory</Descripcion>
+        <Valor>http://localhost/activedirectory</Valor>
+    </Parametro>
+    <Parametro id="5">
+        <Codigo>5</Codigo>
+        <Descripcion>Semilla para cifrar</Descripcion>
+        <Valor>12345=</Valor>
+    </Parametro>
+	<Parametro id="6">
+        <Codigo>6</Codigo>
+        <Descripcion>Port mariadb</Descripcion>
+        <Valor>3306</Valor>
+    </Parametro>
+	<Parametro id="7">
+        <Codigo>7</Codigo>
+        <Descripcion>Visualizar errores</Descripcion>
+        <Valor>true</Valor>
+    </Parametro>
+	<Parametro id="8">
+        <Codigo>8</Codigo>
+        <Descripcion>Ruta almacenamiento anexos</Descripcion>
+        <Valor>D:/Anexos/</Valor>
+    </Parametro>
+</Parametros>
